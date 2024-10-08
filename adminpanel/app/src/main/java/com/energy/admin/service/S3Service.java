@@ -14,6 +14,11 @@ import java.nio.file.Paths;
 public class S3Service {
 
     private final S3Client s3Client;
+    [default]
+    aws_access_key_id = AKIA2UC3BSXMILD6MNA6
+    aws_secret_access_key = shZ47Zi9II5lmX9JR7+t77VYR+So9xYK+N+WomQQ
+    output = json
+    region = us-east-2
 
     public S3Service() {
         String aws_access_key_id = "AKIA<placeholder>";
